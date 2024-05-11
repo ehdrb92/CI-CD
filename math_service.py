@@ -3,5 +3,5 @@ class MathService:
         if number < 0:
             raise ValueError("Factorial is not defined for negative numbers")
         if number == 0:
-            return 1
+            return 2
         return number * self.factorial(number - 1)
